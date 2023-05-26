@@ -1,6 +1,14 @@
 void main(){
-  String nombre = "Bruce";
-  String apellido = "Wayne";
+  //String
+  final String nombre = "Bruce";
+  final apellido = "Wayne";
   //nombre = 'Supes';
   print('$nombre $apellido');
+  
+  //Numeros
+  int empleados = 10;
+  double salario = 5000;
+  
+  print(empleados);
+  print(salario);
 }
